@@ -91,6 +91,7 @@ from .ophys.tiff.tiffdatainterface import TiffImagingInterface
 
 # Text
 from .text.csv.csvtimeintervalsinterface import CsvTimeIntervalsInterface
+from .text.csv.csvtimeseriesinterface import CsvTimeSeriesInterface
 from .text.excel.exceltimeintervalsinterface import ExcelTimeIntervalsInterface
 
 interface_list = [
@@ -156,6 +157,7 @@ interface_list = [
     NeuralynxNvtInterface,
     LightningPoseDataInterface,
     # Text
+    CsvTimeSeriesInterface,
     CsvTimeIntervalsInterface,
     ExcelTimeIntervalsInterface,
 ]
